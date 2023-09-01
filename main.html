@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Пр 13</title>
+	<link href="https://fonts.cdnfonts.com/css/gotham-black" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans&display=swap" rel="stylesheet">s
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans&display=swap" rel="stylesheet">	
+	<style type="text/css">
+		#some_block_1{
+			height: 80vh
+		}
+		.nav-pills {
+			--bs-nav-pills-link-active-bg:#ffbb42;
+		}
+		.navbar-nav{
+			--bs-nav-link-hover-color:white;
+		}
+		.nav-link:hover{
+			background-color:#ffbb42;
+		}
+		
+		#some_block_1 h1,p{
+			text-align: center;
+		}
+		p{
+			font-family: 'Lato', sans-serif;;
+		}
+		h1,h2{
+			font-weight: bold;
+			text-transform: uppercase;
+			font-family: 'Gotham Black', sans-serif;
+		}
+
+		#some_block_2{
+			padding-top: 10vh;
+			padding-bottom: 10vh;
+			text-align: center;
+		}
+		#some_block_3,#some_block_1{
+			color: white;
+			background-color: #ffbb42;
+		}
+		#some_block_1,#some_block_2{
+			padding-top: 15vh;
+			padding-block: 15vh;
+		}
+		form{
+
+			margin: auto;
+			margin-top:10vh;
+		}
+		
+		form >div{
+			border-radius: 2px;
+			margin-inline: 20px;
+			padding-inline: 1.5rem;
+    		padding-top: 2rem;
+    		padding-bottom: 2rem;
+			height: 6vh;
+			width: 24vw;
+			background-color: white;
+			display: flex;
+			align-items: center;
+		}
+		form .btn{
+			padding:2.083vh 3.148vw;
+			background-color:#ffbb42 ;
+			color: white;
+			--bs-btn-padding-y: 1.2rem;
+		}
+
+		form img{
+			margin-inline:1.098vw ;
+			height: 1.7vh;
+		}
+		form{
+			display: flex;
+			justify-content: space-between;
+			width: 80vw;
+			flex-flow: row;	
+		}
+		#for_grid p,h3{
+			text-align: left;
+		}
+		#for_grid h3{
+			text-transform: uppercase;
+			font-size: 16px;
+		}
+		#for_grid p{
+			font-weight: 300;
+			font-size: 13px;
+		}
+		input[type="radio"]{
+			border: solid 1px grey;
+		}
+
+		.btn{
+			color: white;
+			background-color:#ffbb42;
+			--bs-border-radius: 0.1rem;
+			--bs-btn-padding-x: 2.5rem;
+    		--bs-btn-padding-y: 1.4rem;
+		}
+		#some_block_3 .btn{
+			border: 1px solid #e7ad48;
+		}
+		#some_block_3{
+		}
+		input{
+			--bs-border-width: 0px;
+		}
+		#for_grid{
+			margin-top: 8vh;
+		}
+		#comp{
+			position: relative;
+			top: 2vh;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+	</style>
+
+</head>
+<body>
+	<header class="page-header row justify-content-around" >
+		<nav class="navbar navbar-expand-lg navbar-light " style="">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Logo.png">
+                </a>
+               
+                <div class="collapse navbar-collapse" >
+                    <ul class="nav-pills navbar-nav m-auto mb-3  mb-lg-0">
+                        <li class="nav-item">
+						    <a class="nav-link scrollto" aria-current="" href="#some_block_1">HOME</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link scrollto" href="#some_block_2">SERVICE</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link scrollto" href="#some_block_3">ABOUT US</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link scrollto"href="#">PRICING TABLE</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link scrollto"href="#">HOW IT WORK</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link scrollto"href="#">HAPPY CLIENTS</a>
+						  </li>
+						    <li class="nav-item">
+						    <a class="nav-link scrollto"href="#">CONTACT US</a>
+						  </li>
+                   
+                </div>
+            </div>
+        </nav>
+		
+	</header>
+	<section id="some_block_1" style="background-color:#709dca">
+		<h1 class="h1" >Boost up your Local business</h1>
+		<p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
+		<form class="form-group d-flex justify-content-center m-auto w-100" style="
+		margin-top: 4vh !important;
+		margin-bottom: 4vh !important;
+		" >
+			<div id="form_name" class="bg-white" >
+				<div class="w-25" >
+					<img src="images/form/name.png" alt="full name">
+				</div>
+				<input class="form-control" type="text" placeholder="Full name" name="">
+
+			</div>
+			<div id="form_email" class="bg-white  ">
+				<div class="">
+					<img src="images/form/email.png" alt="email" >
+				</div>
+				<input type="text"class="form-control " placeholder="Email Address" name="">
+			</div>
+			<div id="form_phone" class="bg-white">
+				<div class="">
+					<img src="images/form/phone.png" alt="phone number" >
+				</div>
+				<input type="text" class="form-control"placeholder="Phone Number" name="">
+			</div>
+			<button class="btn ">REQUEST A QUOTE</button>
+		</form>
+		<div id="comp" class="w-100">
+			<img src="images/Laptop.png" class="align-self-center">
+			<div id ="radio_buttons" class="d-flex justify-content-between  align-self-center" style="width: 7vw; margin-top: 10px;">
+				<input type="radio" id="rad_button_1" name="buttons_for_pic" class="form-check-input ">
+				<input type="radio" id="rad_button_2" name="buttons_for_pic" class="form-check-input">
+				<input type="radio" id="rad_button_3" name="buttons_for_pic" class="form-check-input ">
+				<label for="rad_button_1" class="d-none"></label>
+				<label for="rad_button_2" class="d-none"></label>
+				<label for="rad_button_3" class="d-none"></label>
+			</div>
+		</div>	
+	</div>
+	</section>
+	
+	<section id="some_block_2">
+		<div class="section_title ">
+			<h2 style="margin-top:5vh">OUR SERVICES</h2>
+			<p>Lorem Ipsum is simply dummy Buisness industry</p>
+		</div>
+		<div id="for_grid" class="row">
+			<div id="block_2_1" class=" col-lg-6 menu-item align-self-center row">
+				<div class="col-1 w-25">
+					<img src="images/section_1/time.png" alt=""class="">
+				</div>
+				<div id="block_2_1_1" class="right_block p-3 col-1 w-75 pt-0">
+					<h3>Font-Awesome Icons</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div>
+			<div id="block_2_2" class=" col-lg-6 menu-item align-self-center row">
+				<div class="col-1 w-25">
+					<img src="images/section_1/propeties.png" alt="">
+				</div>
+				<div id="block_2_2_1" class="right_block p-3 col-1 w-75 pt-0">
+					<h3>Fully Responsive Design</h3>
+					<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+				</div>
+			</div>
+			<div id="block_2_3" class=" col-lg-6 menu-item align-self-center row">
+				<div class="col-1 w-25">
+					<img src="images/section_1/study.png" alt="">
+				</div>
+			
+				<div id="block_2_3_1" class="right_block p-3 col-1 w-75 pt-0">
+					<h3>Working Contact form</h3>
+					<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un cover many web sites still in their infancy</p>
+				</div>
+			</div>
+			<div id="block_2_4"class=" col-lg-6 menu-item align-self-center row">
+				<div class="col-1 w-25">
+					<img src="images/section_1/rocket.png" alt="">
+				</div>
+				
+				<div id="block_2_4_1" class="right_block p-3 col-1 w-75 pt-0">
+					<h3>Retina Ready icons here</h3>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
+				</div>
+			</div>
+			<div id="block_2_5"class=" col-lg-6 menu-item align-self-center row">
+				<div class="col-1 w-25">
+					<img src="images/section_1/friendly_code.png" alt="">
+				</div>
+				<div id="block_2_5_1"class="right_block p-3 col-1 w-75 pt-0">
+					<h3>Friendly Code</h3>
+					<p>Finibus Bonorum et Malorum" by Cicero are also reproduced in their  exact original form, accompanied by English versions from the 1914 translation by H. Rackham</p>
+				</div>
+			</div>
+			<div id="block_2_6" class=" col-lg-6 menu-item align-self-center row">
+				<div class="col-1 w-25">
+					<img src="images/section_1/dolar.png" alt="">
+				</div>
+				<div id="block_2_6_1"class="right_block p-3 col-1 w-75 pt-0">
+					<h3>Flat trendy landing page Design</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="some_block_3" class="row w-100 " style="height: 75vh;" >
+		<img src="images/About Us_Img.png" class="col-1 w-50">
+		<div id="some_block_3_1" class="col-2 w-50 " style="vertical-align: center; margin: auto; padding-inline: 5vw;">
+			<div class="section_title" class="justify-items-center" style="text-align: left; ">
+				<h2 style="margin-bottom: 2vw ;">ABOUT US</h2>
+				<p style="text-align: left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the ore recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			</div>
+			<button class="btn">Read more</button>
+		</div>
+	</section>
+	
+	
+</body>
+</html>
